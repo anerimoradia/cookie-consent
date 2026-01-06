@@ -1,0 +1,128 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    background: #111;
+    color: #fff;
+    padding: 16px 24px;
+}
+
+header h1{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+main, body > p{
+    max-width: 800px;
+    margin-inline: auto;
+    padding: 16px 24px;
+}
+
+.cookie-overlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.cookie-popup{
+    position: relative;
+    width: min(360px, 90vw);
+    background: #000;
+    color: #fff;
+    padding: 24px 20px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+}
+
+#cookie-popup-title{
+    margin: 0 0 12px 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#cookie-popup-desc {
+    margin: 0 0 12px;
+    font-size: 0.85rem;
+    color: #ddd;
+}
+
+.accept-cookies {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.accept-cookies:hover {
+    color: #ffcc00;
+    opacity: 0.8;
+}
+
+.cookies-icon {
+    font-size: 2rem;
+    margin: 8px 0;
+}
+
+#cookie-title{
+    margin: 0 0 6px;
+    font-size: 1.25rem;
+}
+
+.cookie-popup > p {
+    margin: 0 0 16px;
+    font-size: 0.9rem;
+    color: #eee;
+}
+
+.cookie-accept{
+    display: inline-block;
+    padding: 10px 26px;
+    border-radius: 999px;
+    border: none;
+    background: #fff;
+    color: #000;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.15s ease;
+}
+
+.cookie-accept:hover{
+    background: #f7f7f7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transform: translateY(-1px);
+}
+
+.cookie-accept:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media (max-width: 480px) {
+    .cookie-popup {
+        padding: 20px 16px;
+    }
+
+    .cookie-accept {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
