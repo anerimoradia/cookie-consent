@@ -47,5 +47,5 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## Author
 
-Your Name - [@anerimoradia](https://github.com/anerimoradia)
+[@anerimoradia](https://github.com/anerimoradia)
 
