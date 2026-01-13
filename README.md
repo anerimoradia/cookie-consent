@@ -49,3 +49,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 [@anerimoradia](https://github.com/anerimoradia)
 
+## Shareable Link
+https://roadmap.sh/projects/cookie-consent/solutions?u=66c52a3b34a9226f385ab651
+
