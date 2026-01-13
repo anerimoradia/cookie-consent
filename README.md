@@ -15,7 +15,7 @@ A simple, accessible, and modern cookie consent banner implementation using vani
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/cookie-consent.git
+git clone https://github.com/anerimoradia/cookie-consent.git
 cd cookie-consent
 ```
 
