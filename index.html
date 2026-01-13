@@ -20,23 +20,24 @@
         </section>
     </main>
 
-    <div class="cookie-overlay" aria-hidden="true">
+    <div class="cookie-overlay hidden" aria-hidden="true">
         <div class="cookie-popup" role="dialog" aria-modal="true" aria-labelledby="cookie-title">
-            <h2 id="cookie-popup-title">Cookie Consent</h2>
-            <p id="cookie-popup-desc">
-                We use cookies to enhance your browsing experience. By clicking "Accept", you consent to our use of cookies.
-            </p>
-            <button class="accept-cookies" aria-label="Close consent dialog">
-                &times;
-            </button>
 
+            <!-- Close button -->
+            <button class="accept-cookies" aria-label="Close consent dialog">&times;</button>
+
+            <!-- Cookie icon -->
             <div class="cookie-icon" aria-hidden="true">🍪</div>
 
+            <!-- Title + message -->
             <h2 id="cookie-title">We use cookies</h2>
             <p>We use cookies to improve your browsing experience and personalize content.</p>
 
+            <!-- Accept button -->
             <button class="cookie-accept">I Like Cookies</button>
+
         </div>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
